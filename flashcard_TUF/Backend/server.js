@@ -59,5 +59,5 @@ app.delete("/flashcards/:id", (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log("Server running on port " + process.env.port);
+  console.log("Server running on port " + process.env.PORT);
 });
